@@ -8,19 +8,19 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Thomas Stringer                          # the main title
+title: Adam Lesch                         # the main title
 
 tagline: Software Engineer  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Blog and portfolio focused on
   Linux, Kubernetes, containers, DevOps,
-  cloud, and other technical things.
+  observability, and other technical things.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://trstringer.com'
+url: 'https://leschad.github.io/blog'
 
-author: Thomas Stringer                  # change to your full name
+author: Adam Lesch                  # change to your full name
 
 avatar: /images/Logo-C.png   # support internet resources
 
@@ -34,15 +34,15 @@ twitter:
   username: tr_stringer            # change to your twitter username
 
 social:
-  name: Thomas Stringer                  # it will shows as the copyright owner in Footer
-  email: thomas@trstringer.com             # change to your email address
+  name: Adam Lesch                 # it will shows as the copyright owner in Footer
+  email: alesch00@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/tr_stringer      # change to your twitter homepage
-    - https://github.com/trstringer       # change to your github homepage
+    # - https://twitter.com/tr_stringer      # change to your twitter homepage
+    - https://github.com/leschad       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/trstringer
+    - www.linkedin.com/in/adam-lesch-6a5197168
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -52,12 +52,12 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/Prague
 
-jekyll_analytics:
-  Plausible:
-    domain: 'trstringer.com'   # The domain configured in plausible
-    source: 'https://plausible.io/js/plausible.js' # The source of the javascript
+# jekyll_analytics:
+#   Plausible:
+#     domain: 'trstringer.com'   # The domain configured in plausible
+#     source: 'https://plausible.io/js/plausible.js' # The source of the javascript
 
 # google_analytics:
 #   # Fill with your Google Analytics ID
@@ -86,7 +86,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: light
+theme_mode: dual
 
 # boolean type, global switch for ToC in posts.
 toc: true
